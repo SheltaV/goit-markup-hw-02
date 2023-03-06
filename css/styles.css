@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: #434455;
 }
 
 .link {
@@ -11,12 +11,16 @@ body {
     list-style-type: none;
 }
 
+.header {
+    text-decoration: none;
+}
+
 .header-logo {
     font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.33;
+        line-height: 1.17;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
@@ -24,8 +28,12 @@ body {
         color: #2E2F42;
         text-decoration: none;
 }
-.header-logo-span {
+.header-logo-span-1 {
     color: #4D5AE5;
+}
+
+.header-logo-span-2 {
+    
 }
 
 .header-list {
@@ -36,16 +44,22 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
-.header-adress-link {
-    font-style: normal;
-}
-
 .header-adress {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        font-style: normal;
+}
+
+.header-class:hover,
+.header-class:focus {
+    color: #404bbf;
+}
+
+.hero {
+    background-color: #2e2f42;
 }
 
 .hero-title {
@@ -74,6 +88,7 @@ color: #2E2F42;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         border: 0;
+        cursor: pointer;
 }
 
 .goals-title {
@@ -143,7 +158,17 @@ color: #2E2F42;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        text-decoration: none;
+}
+
+.footer-logo-span-1 {
+        color: #4D5AE5;
+        text-decoration: none;
+}
+
+.footer-logo-span-2 {
         color: #F4F4FD;
+        text-decoration: none;
 }
 
 .footer-text {
