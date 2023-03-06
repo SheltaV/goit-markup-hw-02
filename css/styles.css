@@ -31,12 +31,12 @@ body {
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;    
-        color: #2E2F42;
+        color: var(--logo-color);
         text-decoration: none;
 }
+
 .header-logo-span {
-    color:var(--logo-color
-    );
+    color:var(--logo-color-2);
 }
 
 .header-link {
@@ -50,6 +50,10 @@ color: var(--logo-color-2);
 .header-link:hover,
 .header-link:focus {
     color: var(--color-3)
+}
+
+.header-adress {
+        font-style: normal;
 }
 
 .header-adress-link {
@@ -181,6 +185,10 @@ color: var(--logo-color-2);
         color: #E7E9FC;
 }
 
+.portfolio-hidden {
+    visibility: hidden;
+}
+
 .portfolio-btn {
 font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -196,6 +204,7 @@ font-family: 'Roboto', sans-serif;
     background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .portfolio-btn:hover,
